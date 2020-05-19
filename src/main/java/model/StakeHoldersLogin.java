@@ -16,7 +16,7 @@ public class StakeHoldersLogin
 		System.out.print("Enter Your Password : ");
 		
 		String pass = sc.nextLine();
-		h.put(email , pass );
+h.put(email , pass );
 		ExcelReader vc = new ExcelReader();
 		System.out.println("\n1:Farmer\n2.Wholesaler\n3.Retailer\n4.Civilian\nEnter your profession :");
 		int prof=sc.nextInt();
